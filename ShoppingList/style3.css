@@ -1,0 +1,73 @@
+body {
+	margin: 20px; 
+	padding: 15px;
+	background-color: whitesmoke;
+/*	background-image: url(./shopping2.jpg);*/
+	font-family: 'Times New Roman', Times, serif;
+	font-size: large;
+}
+
+
+.container{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content:flex-start;
+  	padding: 20px;
+  	
+   
+}
+
+.div{
+    content: normal;
+  	padding: 5px;
+	justify-content:flex-start;
+  	
+   
+}
+
+h1 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+	font-size: 3em;
+	border-bottom: 3px solid crimson;
+	text-align:start;
+	width: 400px;
+}
+
+section {
+	max-width: 100%;
+	margin:2fr;
+	padding-block-end: 50%;
+	/* font-family: 'Times New Roman', Times, serif;
+	font-weight: 3em; */
+}
+
+input {
+	padding: 10px 20px 10px 20px;
+	border-radius: 10px;
+	border:black;
+	border-style:double;
+	
+}
+
+button {
+	padding: 10px 20px;
+	margin: 5px;
+	border: none;
+	background-color: #778899;
+	border-radius: 10px;
+	font: 3em;
+	color:white; 
+	
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+
+li {
+	display: flex;
+	justify-content:center;
+	align-items:baseline;
+	list-style-position: inside;
+}
