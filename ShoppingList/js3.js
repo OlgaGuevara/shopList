@@ -69,4 +69,3 @@ input.addEventListener("keypress", addListAfterKeypress);
 list.forEach(addDelete);
 list.forEach(addToggle);
 
-///https://es.stackoverflow.com/questions/231391/c%C3%B3mo-a%C3%B1adir-un-bot%C3%B3n-que-elimine-items-de-una-lista
